@@ -1,3 +1,5 @@
+import sys
+import re
 from sklearn.preprocessing import MinMaxScaler, StandardScaler, Normalizer
 import pymc3 as pm
 import patsy as pt
@@ -11,8 +13,6 @@ import gc
 import numpy as np
 from mongo_test import get_data
 
-import sys
-import re
 
 plt.style.use('seaborn-darkgrid')
 
